@@ -1,11 +1,18 @@
 <template>
     <q-list  padding>
-      <q-item>
-        <q-item-section>
-          <q-item-label  class="text-bold">Lorem Zynru</q-item-label>
-          <q-item-label>lorem.zynru@gmail.com</q-item-label>
+      <q-item clickable>
+         <q-item-section avatar>
+          <q-avatar>
+            <img src="https://cdn.quasar.dev/img/avatar2.jpg">
+          </q-avatar>
         </q-item-section>
-
+        <q-item-section>
+          <q-item-label>Lorem Zynru</q-item-label>
+          <q-item-label caption lines="1">lorem.zynru@gmail.com</q-item-label>
+        </q-item-section>
+        <q-item-section side>
+          <q-btn flat color="primary"  label="Update"/>
+        </q-item-section>
       </q-item>
 
       <q-separator spaced />
